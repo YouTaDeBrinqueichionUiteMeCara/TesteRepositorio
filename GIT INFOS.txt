@@ -27,15 +27,9 @@ git commit -m "comentario" 	  = Adiciona uma alteração para o GIT, o "-m" é p
 git commit --amend 			  = Um commit em cima do anterior
 git clone https://repositorio = É para cloar um projeto existente em algum reposítorio(git clone https://github.com/tableless/exemplos.git)
 git log 					  = lista os commits que foram feitos.
-$ git log --since=2.weeks 	  = Logs até 2 semanas atras
+git log --since=2.weeks 	  = Logs até 2 semanas atras
 git checkout #hash do commit  = Retorna para o commit passado por parâmetro(antes ou depois)
 git pull 					  = Traz as modificações feitas pelo time de desenvolvimento do repositório. Fará um merge automático se necessário.
 git push 					  = Ele manda os commits locais para o servidor. Só pode ser feito quando um git pull tiver sido executado
 git reset HEAD <file> 		  = Tira um arquivo do commit
 git merge 					  = Une 2 arquivos com o mesmo nome e local
-
-HA MANOLO
-
-
-FOOTER
-===========================================================================================================
