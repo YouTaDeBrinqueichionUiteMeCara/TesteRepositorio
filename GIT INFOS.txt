@@ -34,5 +34,8 @@ git push 					  = Ele manda os commits locais para o servidor. Só pode ser feit
 git reset HEAD <file> 		  = Tira um arquivo do commit
 git merge 					  = Une 2 arquivos com o mesmo nome e local
 
-
 HA MANOLO
+
+
+FOOTER
+===========================================================================================================
