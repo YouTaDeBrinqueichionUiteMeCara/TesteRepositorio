@@ -1,0 +1,35 @@
+===========================================================================================================
+Termos básicos
+===========================================================================================================
+
+Branch 						 = Cópia do projeto. Cada um pode ser editado e evoluído independentemente.
+Branch Master 				 = A versão que está no AR, onde só alteramos quando temos certeza que está tudo funcionando
+Branch de desenvolvimento 	 = Onde podemos alterar sem medo
+HEAD 						 = A última revisão(mais atual)
+Trunks 						 = Mudanças drásticas na versão do cliente.
+Commit 						 = Cada commit gera uma versão do código(Envio de alterações para o controle de versão)
+Logs  						 = Mensagens por commit
+Diffs 						 = Comparar 2 versões de um mesmo arquivo para descobrir as linhas modificadas
+Rollback 					 = Podemos voltar a qualquer commit que feito.
+Merge 	 					 =  Quando 2 desenvolvedores modificam a mesma linha de código o controle de versão gera um conflito, onde o desenvolvedor que executou o segundo commit deve resolver esse conflito.
+Arquivos tracked e untracked = Tracked são arquivos que já estão no repositórios, onde podem ser UNMODIFIED(que não foram modificados por mim), MODIFIED(que foram modificados por mim) ou STAGED(são arquivos que acabaram de ser mudados)
+
+
+===========================================================================================================
+Comandos básicos
+===========================================================================================================
+
+git config #options 		  = Configura informações básicas do GIT(user, email, telefone etc)
+git touch #nome_arquivo 	  = Cria um arquivo *.md
+git add #arquivo			  = Adiciona algo(ou tudo) para o próximo commit
+git status 					  = traz informações sobre o repositório
+git commit -m "comentario" 	  = Adiciona uma alteração para o GIT, o "-m" é para um comentário da alteração
+git commit --amend 			  = Um commit em cima do anterior
+git clone https://repositorio = É para cloar um projeto existente em algum reposítorio(git clone https://github.com/tableless/exemplos.git)
+git log 					  = lista os commits que foram feitos.
+$ git log --since=2.weeks 	  = Logs até 2 semanas atras
+git checkout #hash do commit  = Retorna para o commit passado por parâmetro(antes ou depois)
+git pull 					  = Traz as modificações feitas pelo time de desenvolvimento do repositório. Fará um merge automático se necessário.
+git push 					  = Ele manda os commits locais para o servidor. Só pode ser feito quando um git pull tiver sido executado
+git reset HEAD <file> 		  = Tira um arquivo do commit
+git merge 					  = Une 2 arquivos com o mesmo nome e local
