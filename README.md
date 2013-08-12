@@ -1,4 +1,8 @@
 TesteRepositorio
 ================
 
-Testando git com github 12/08/2013 11h22
+<<<<<<< HEAD
+Testando git com github
+
+12/08/2013 11h22
+
