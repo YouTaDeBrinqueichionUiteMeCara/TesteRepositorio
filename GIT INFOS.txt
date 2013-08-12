@@ -33,3 +33,8 @@ git pull 					  = Traz as modificações feitas pelo time de desenvolvimento do 
 git push 					  = Ele manda os commits locais para o servidor. Só pode ser feito quando um git pull tiver sido executado
 git reset HEAD <file> 		  = Tira um arquivo do commit
 git merge 					  = Une 2 arquivos com o mesmo nome e local
+
+
+===========================================================================================================
+FOOTER
+===========================================================================================================
