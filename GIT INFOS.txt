@@ -11,9 +11,14 @@ Commit 						 = Cada commit gera uma versão do código(Envio de alterações pa
 Logs  						 = Mensagens por commit
 Diffs 						 = Comparar 2 versões de um mesmo arquivo para descobrir as linhas modificadas
 Rollback 					 = Podemos voltar a qualquer commit que feito.
+<<<<<<< HEAD
 Merge 	 					 = Quando 2 desenvolvedores modificam a mesma linha de código o controle de versão gera um conflito, onde o desenvolvedor que executou o segundo commit deve resolver esse conflito.
 Arquivos tracked			 = Tracked são arquivos que já estão no repositório, onde podem ser UNMODIFIED(que não foram modificados por mim), MODIFIED(que foram modificados por mim) ou STAGED(são arquivos que acabaram de ser mudados)
 Arquivos untracked 			 = Arquivos que não estão no repositório;
+=======
+Merge 	 					 =  Quando 2 desenvolvedores modificam a mesma linha de código o controle de versão gera um conflito, onde o desenvolvedor que executou o segundo commit deve resolver esse conflito.
+Arquivos tracked e untracked = Tracked são arquivos que já estão no repositórios, onde podem ser UNMODIFIED(que não foram modificados por mim), MODIFIED(que foram modificados por mim) ou STAGED(são arquivos que acabaram de ser mudados)
+>>>>>>> b2bd5379f8e6e2a021727871078029ae76a6a58f
 
 
 ===========================================================================================================
@@ -22,7 +27,11 @@ Comandos básicos
 
 git config #options 		  = Configura informações básicas do GIT(user, email, telefone etc)
 git touch #nome_arquivo 	  = Cria um arquivo *.md
+<<<<<<< HEAD
 git add #arquivo			  = Adiciona algo(ou tudo .) para o próximo commit
+=======
+git add #arquivo			  = Adiciona algo(ou tudo) para o próximo commit
+>>>>>>> b2bd5379f8e6e2a021727871078029ae76a6a58f
 git status 					  = traz informações sobre o repositório
 git commit -m "comentario" 	  = Adiciona uma alteração para o GIT, o "-m" é para um comentário da alteração
 git commit --amend 			  = Um commit em cima do anterior
@@ -33,6 +42,7 @@ git checkout #hash do commit  = Retorna para o commit passado por parâmetro(ant
 git pull 					  = Traz as modificações feitas pelo time de desenvolvimento do repositório. Fará um merge automático se necessário.
 git push 					  = Ele manda os commits locais para o servidor. Só pode ser feito quando um git pull tiver sido executado
 git reset HEAD <file> 		  = Tira um arquivo do commit
+<<<<<<< HEAD
 git merge 					  = Une 2 arquivos com o mesmo nome e local
 
 
@@ -43,3 +53,6 @@ BRANCH
 - Clonar BRANCH MASTER para os BRANCHS de desenvolvimento;
 - Fazer alterações e testes sem medo;
 - Caso tudo funcione conforme planejado, executar MERGE dos BRANCHS de desenvolvimento com o BRANCH MASTER;
+=======
+git merge 					  = Une 2 arquivos com o mesmo nome e local
+>>>>>>> b2bd5379f8e6e2a021727871078029ae76a6a58f
