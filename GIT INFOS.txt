@@ -42,7 +42,6 @@ git checkout #hash do commit  = Retorna para o commit passado por parâmetro(ant
 git pull 					  = Traz as modificações feitas pelo time de desenvolvimento do repositório. Fará um merge automático se necessário.
 git push 					  = Ele manda os commits locais para o servidor. Só pode ser feito quando um git pull tiver sido executado
 git reset HEAD <file> 		  = Tira um arquivo do commit
-<<<<<<< HEAD
 git merge 					  = Une 2 arquivos com o mesmo nome e local
 
 
@@ -53,6 +52,3 @@ BRANCH
 - Clonar BRANCH MASTER para os BRANCHS de desenvolvimento;
 - Fazer alterações e testes sem medo;
 - Caso tudo funcione conforme planejado, executar MERGE dos BRANCHS de desenvolvimento com o BRANCH MASTER;
-=======
-git merge 					  = Une 2 arquivos com o mesmo nome e local
->>>>>>> b2bd5379f8e6e2a021727871078029ae76a6a58f
